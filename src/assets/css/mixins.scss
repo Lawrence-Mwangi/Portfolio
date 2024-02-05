@@ -1,0 +1,16 @@
+@mixin grid($columns) {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+
+    @media screen and (width >= 726px) {
+        grid-template-columns: repeat($columns, 1fr);
+    }
+}
+
+
+@mixin flex{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+}

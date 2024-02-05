@@ -1,0 +1,36 @@
+$primary-color:#000004;
+$secondary-color:#FBFEF9;
+$accent-color:#A63446;
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Verdana, sans-serif;
+}
+
+body{
+    background:$secondary-color;
+    color:$primary-color;
+}
+
+.container{
+    padding:0.5em 3%;
+    margin:0 0 3em;
+    transition: opacity 300ms ease-in-out;
+}
+
+h1{
+    color:$accent-color;
+}
+  
+
+@media screen and (width <=726px){
+    .container{
+        padding:0 6%;
+        transition: opacity 50ms ease-in;
+    }
+}
+
+
+

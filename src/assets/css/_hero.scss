@@ -1,0 +1,66 @@
+.hero_container{
+    @include grid(2);
+    
+    .hero_content{
+        @include flex;
+        justify-content: center;
+        align-items:center;
+      span{
+        font-size: 3.5em;
+      }
+      p{
+        font-size: 2.3em;
+
+        .animate{
+          font-size: 1.2em;
+          display: inline-block;
+          color:$accent-color;
+          animation: giggle 2s infinite;
+        }
+      }
+    }
+    .hero_image{
+        display: flex;
+        align-items: right;
+        justify-content: center;
+        img{
+            height: 75vh;
+            width: 50%;
+            border-radius:18px;
+        }
+    }
+    
+@keyframes giggle{
+  0%, 50%, 100%{
+    transform: translateX(0);
+  }
+
+  25%, 75%{
+    transform: translateX(-8px);
+  }
+}
+}
+
+ 
+
+@media screen and (width <=726px){
+ .hero_container{
+  .hero_content{
+    span{
+      font-size: 2.2em;
+    }
+    p{
+      .animate{
+        font-size: 0.8em;
+      }
+    }
+  }
+    .hero_image{
+      img{
+        height: 40vh;
+        width: 70%;
+      }
+    }
+ }
+}
+
