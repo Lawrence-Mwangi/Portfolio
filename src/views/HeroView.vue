@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-    <section class="hero" id="Hero">
+    <section class="Hero" id="Hero">
         <div class="hero_container">
             <div class="hero_content">
                 <span>Hello, It's Lawrence</span>

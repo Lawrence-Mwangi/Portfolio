@@ -1,4 +1,6 @@
-.hero_container{
+.Hero{
+  padding: 4.2em 0 0;
+  .hero_container{
     @include grid(2);
     
     .hero_content{
@@ -40,27 +42,30 @@
   }
 }
 }
+}
 
  
 
 @media screen and (width <=726px){
- .hero_container{
-  .hero_content{
-    span{
-      font-size: 2.2em;
-    }
-    p{
-      .animate{
-        font-size: 0.8em;
+  .Hero{
+    .hero_container{
+      .hero_content{
+        span{
+          font-size: 2.2em;
+        }
+        p{
+          .animate{
+            font-size: 0.8em;
+          }
+        }
       }
-    }
+        .hero_image{
+          img{
+            height: 40vh;
+            width: 70%;
+          }
+        }
+     }
   }
-    .hero_image{
-      img{
-        height: 40vh;
-        width: 70%;
-      }
-    }
- }
 }
 
