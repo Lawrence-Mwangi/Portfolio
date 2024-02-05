@@ -1,6 +1,7 @@
 <script setup></script>
 
 <template>
+   <section class="Work">
     <h1>My Work</h1>
     <div class="work_container">
         <div class="work_content">
@@ -51,4 +52,5 @@
             </a>  
         </div>       
     </div>
+   </section>
 </template>

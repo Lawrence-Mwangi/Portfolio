@@ -1,6 +1,7 @@
 <script setup></script>
 
 <template>
+<section class="Service">
     <h1>My Services</h1>
     
     <div class="service_container">
@@ -30,4 +31,5 @@
             </p>
         </div>   
     </div>
+</section>
 </template>

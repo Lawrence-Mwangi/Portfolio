@@ -1,26 +1,29 @@
-.skill_container{
-    @include grid(3);
-
-    .skills{
-        p{
-            font-size: 1.2em;
-            font-weight: bold;
-        }
-        ul{
-            list-style: none;
-            li{
-                padding:0.5em 1.5em;
-                margin:0.5em 0;            
-                border: 1px solid $primary-color;
-                border-radius: 26px;
-                text-align: center;
-                font-size: 1em;
-                font-weight: 550;
-                cursor: pointer;
-
-                span{
-                    margin:0 0.3em;
-                    font-weight: bold;
+.Skill{
+    padding:5em 0 0;
+    .skill_container{
+        @include grid(3);
+    
+        .skills{
+            p{
+                font-size: 1.2em;
+                font-weight: bold;
+            }
+            ul{
+                list-style: none;
+                li{
+                    padding:0.5em 1.5em;
+                    margin:0.5em 0;            
+                    border: 1px solid $primary-color;
+                    border-radius: 26px;
+                    text-align: center;
+                    font-size: 1em;
+                    font-weight: 550;
+                    cursor: pointer;
+    
+                    span{
+                        margin:0 0.3em;
+                        font-weight: bold;
+                    }
                 }
             }
         }
@@ -28,14 +31,16 @@
 }
 
 @media screen and (width <=726px) {
-  .skill_container{
-    .skills{
-        ul{
-            li{
-                width: 95%;
+    .Skill{
+        .skill_container{
+            .skills{
+                ul{
+                    li{
+                        width: 95%;
+                    }
+                }
             }
-        }
-    }
-  }      
+          } 
+    }     
 }
 

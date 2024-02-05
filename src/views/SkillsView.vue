@@ -1,7 +1,8 @@
 <script setup></script>
 
 <template>
-    <h1>Skills</h1>
+    <scetion class="Skill">
+        <h1>Skills</h1>
     <div class="skill_container">
         <div class="skills">
             <p>Fontend</p>
@@ -25,5 +26,6 @@
             </ul>
         </div>
     </div>
+    </scetion>
 </template>
 

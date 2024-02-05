@@ -11,7 +11,7 @@ import Blog from './BlogView.vue'
 
 <template>
     <Navbar/>
-    <section class="container" id="home"  v-motion-pop-visible>
+    <section class="container" id="home" >
         <Hero/>
     </section>
 
