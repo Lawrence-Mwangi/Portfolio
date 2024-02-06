@@ -27,7 +27,7 @@ import Blog from './BlogView.vue'
         <Service/>
     </section>
     
-    <section class="container " id="work"  v-motion-pop-visible>
+    <section class="container " id="work" >
         <Work/>
     </section>
     
