@@ -39,6 +39,9 @@
                   border: 1px solid $primary-color;
                 } 
             }
+            img:hover{
+                background: $accent-color;
+            }
         }
     }
 }
