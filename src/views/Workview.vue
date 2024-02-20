@@ -6,13 +6,14 @@
     <div class="work_container">
         <div class="work_content">
             <img src="../assets/images/work1.png" alt="work photo">
-            <span>Coffee Ecommerce shop</span>
+            <span>Melody Mix Studio Website</span>
             <p>
-                Crafted a vibrant e-commerce platform for a premium coffee brand, offering a
-                seamless shopping experience and showcasing exquisite coffee products. 
+                Melody Mix Studio: Leading-edge facility for audio production.
+                Expert engineers, diverse genres, collaborative environment. 
+                Recording, mixing, mastering, and production services.
             </p>
 
-            <a href="#" target="_blank">
+            <a href="https://melodymixstudio.netlify.app" target="_blank">
                 <img src="../assets/images/link.png" alt="external link">
             </a> 
         </div>
