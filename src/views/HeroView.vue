@@ -5,7 +5,7 @@
         <div class="hero_container">
             <div class="hero_content">
                 <span>Hello, It's Lawrence</span>
-                <p>I'm a <span class="animate"> UI/UX designer</span></p>
+                <p>I'm a <span class="animate">UI/UX Designer</span></p>
             </div>
             <div class="hero_image">
                 <img src="../assets/images/lawrence.png" alt="profile picture">

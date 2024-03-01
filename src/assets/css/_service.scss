@@ -10,7 +10,7 @@
             padding:0 0.9em;
             border-radius: 22px;
             transition: scale 0.5s ease-in;
-            height: 55vh;
+            height: 42vh;
     
             span,h2{
                 text-align: center;
@@ -40,10 +40,4 @@
     }
     
 }
-@media screen and (width <=726px) {
-    .service_container{
-        .service_content{
-          height: 20vh;
-        }
-    }
-}
+

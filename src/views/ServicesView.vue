@@ -11,8 +11,9 @@
             <p>Proficient in setting up and managing networks, including security measures for 
                 optimal performance. Experienced in resolving connectivity problems, applying 
                 protocols, and maintaining network integrity.
-            </p>
-        </div>  
+            </p> 
+        </div> 
+       
 
         <div class="service_content animate-lift-on-hover">
             <span><img src="../assets/images/web-design.png" alt="Netwoking"></span>
