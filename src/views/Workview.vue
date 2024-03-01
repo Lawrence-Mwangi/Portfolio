@@ -15,6 +15,16 @@
                 <img src="../assets/images/link.png" alt="external link">
             </a> 
         </div>
+
+        <div class="work_content">            
+            <p class="title"> LawNetEstate website</p>
+            <p>Elevating your real estate experience with curated listings, personalized service, and expert guidance. 
+                Discover luxury homes and find your perfect property with ease on our trusted platform
+            </p>
+            <a href="https://lawnetestate.netlify.app" target="_blank">
+                <img src="../assets/images/link.png" alt="external link">
+            </a> 
+        </div> 
          
         <div class="work_content">
             <p class="title">Ecommerce shop</p>
@@ -25,16 +35,6 @@
             <a href="#" target="_blank">
                 <img src="../assets/images/link.png" alt="external link">
             </a>     
-        </div> 
-
-        <div class="work_content">            
-            <p class="title">Church website</p>
-            <p>Developed an inviting church website, fostering community engagement through vibrant design,
-                event updates, and spiritual resources for meaningful online interaction.
-            </p>
-            <a href="#" target="_blank">
-                <img src="../assets/images/link.png" alt="external link">
-            </a> 
         </div> 
 
         <div class="work_content">
